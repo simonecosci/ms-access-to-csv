@@ -76,7 +76,7 @@ namespace AccessListTables
                                 bool writeComma = false;
                                 foreach (DataColumn dc in drc) {
                                     if (writeComma) {
-                                        headerString += ",  ";
+                                        headerString += ";";
                                     }
                                     else
                                     {
@@ -93,7 +93,7 @@ namespace AccessListTables
                                     foreach (DataColumn dc in myDataSet.Tables[0].Columns) {
                                         if (writeComma)
                                         {
-                                            rowString += ", ";
+                                            rowString += ";";
                                         }
                                         else
                                         {
